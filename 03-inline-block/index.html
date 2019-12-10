@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inline Example</title>
+    <style>
+      .box {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: inline-block;
+        /* inline-block이라는 코드가 있을 때는 옆으로 나열 */
+        /* inline만 작성할 경우 모든 설정값을 지운다. 쉽게 말해 text라고 보면 된다. */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 박스가 그 외에는 다른 것이 옆에 있는 것을 허용하지 않음, 그래서 블록이라 부르고 뭐든 밑으로 위치하게 됨 -->
+    <span class="box">1</span>
+    <span class="box">1</span>
+    <span class="box">1</span>
+  </body>
+</html>

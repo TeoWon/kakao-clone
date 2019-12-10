@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS States</title>
+    <style>
+      .box {
+        background-color: red;
+        font-size: 40px;
+      }
+      /* .box:hover {
+        background-color: pink;
+      } */
+      /* hover은 box에 마우스를 가져다대면 색이 변하게 한다. */
+      .box:active {
+        background-color: green;
+      }
+      /* active는 click시에 색이 변하게 된다. */
+      .box:focus {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea class="box">lalalalalalala</textarea>
+  </body>
+</html>
